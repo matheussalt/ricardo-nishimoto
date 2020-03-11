@@ -1,0 +1,35 @@
+{
+  "name": "name_here",
+  "version": "1.0.0",
+  "description": "Para começar a realizar qualquer tipo de ação no tema, leia as instruções README.md",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheussalt/name_here.git"
+  },
+  "author": "Matheus Fonseca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheussalt/name_here/issues"
+  },
+  "homepage": "https://github.com/matheussalt/name_here#readme",
+  "dependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.8.7"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.7.4",
+    "css-loader": "^3.4.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
