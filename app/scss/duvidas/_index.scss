@@ -1,0 +1,24 @@
+.duvidas {
+  width: 100%;
+  padding: 64px 0;
+
+  .container {
+    p {
+      padding-left: 16px;
+    }
+  }
+}
+
+.duvidas-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.duvidas-card {
+  h3 {
+    display: inline-block;
+    padding: 8px;
+    border: 2px solid $blue;
+  }
+}

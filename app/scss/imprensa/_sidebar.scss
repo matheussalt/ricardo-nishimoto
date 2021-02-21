@@ -1,0 +1,22 @@
+.categories {
+  width: 280px;
+  padding: 32px;
+  background-color: $blue;
+
+  h4 {
+    margin-bottom: 32px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  ul {
+    a {
+      padding: 8px;
+      display: block;
+      color: #fff;
+      font-weight: 300;
+      text-align: center;
+    }
+  }
+}

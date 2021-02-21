@@ -1,0 +1,67 @@
+.footer {
+  padding: 64px 0 0;
+  background-color: $black;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+
+  .title {
+    color: #fff;
+    align-self: flex-start;
+  }
+
+  img {
+    width: 200px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      span {
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+      }
+
+      svg {
+        fill: $mediumBlue;
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+}
+
+.rodape {
+  background-color: #313131;
+
+  p {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 21px;
+
+    a {
+      color: #fff;
+    }
+  }
+}
+
+@import './form';

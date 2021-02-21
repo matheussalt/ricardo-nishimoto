@@ -1,0 +1,33 @@
+.home-imprensa {
+  width: 100%;
+  padding: 64px 0;
+  background-color: $blue;
+
+  .container {
+    .title {
+      color: #fff;
+
+      &::before {
+        border-color: #fff;
+      }
+    }
+
+    > p {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+
+    .see-more.white {
+      background-color: $black;
+    }
+  }
+}
+
+.home-imprensa-wrapper {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

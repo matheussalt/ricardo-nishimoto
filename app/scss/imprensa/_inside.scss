@@ -1,0 +1,35 @@
+.imprensa-inside {
+  width: 100%;
+  padding: 64px 0;
+}
+
+.imprensa-inside-wrapper {
+  margin: 32px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.imprensa-inside-content {
+  background-color: $extraLightGrey;
+
+  h1 {
+    padding: 16px;
+  }
+
+  > img {
+    width: 100%;
+    height: 180px;
+    padding: 0 8px;
+    object-fit: cover;
+  }
+
+  > div {
+    padding: 0 16px;
+
+    img {
+      width: 100%;
+    }
+  }
+}

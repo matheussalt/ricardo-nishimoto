@@ -1,0 +1,27 @@
+.blog-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: $extraLightGrey;
+
+  h1 {
+    padding: 16px;
+    text-transform: uppercase;
+  }
+
+  > img {
+    width: 100%;
+    height: 180px;
+    padding: 0 8px;
+    object-fit: cover;
+  }
+
+  > div {
+    padding: 16px;
+
+    img {
+      width: 100%;
+    }
+  }
+}

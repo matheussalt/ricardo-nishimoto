@@ -1,0 +1,22 @@
+.sobre-title {
+  padding: 64px 0 0;
+}
+
+.sobre {
+  width: 100%;
+  padding: 64px 0;
+
+  &.grey {
+    background-color: $lightGrey;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
+.sobre-img img {
+  width: 100%;
+}

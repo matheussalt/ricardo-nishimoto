@@ -30,12 +30,16 @@
   <link rel="profile" href="http://gmpg.org/xfn/11">
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="<?=get_template_directory_URI()?>/style.css" />
+
   <?php wp_head(); ?>
-  <?php include "funcoesSalt.php";  ?>
 
 </head>
 
-<body <?php body_class(); ?>>
+<body>
 
   <div id="fb-root"></div>
   <script>
@@ -49,8 +53,61 @@
   }(document, 'script', 'facebook-jssdk'));
   </script>
 
+  <?php if (!is_front_page()) { ?>
+  <style>
+  .header {
+    position: static;
+    background-image: url('<?=get_template_directory_URI()?>/img/src/home/banner.jpg');
+  }
+  </style>
+  <? } ?>
+
   <header class="header">
-    <div>
-      <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu', 'menu_id' => 'primary-menu' ) ); ?>
+    <div class="container">
+      <a href="<?=site_url()?>" class="header-logo">
+        <img src="<?=get_template_directory_URI()?>/img/src/logo_branco.png" alt="Logotipo Ricardo Nishimoto" />
+      </a>
+
+      <nav class="header-menu" data-menu="menu">
+        <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu' => 'MenuTopo', 'menu_class' => 'nav-menu', 'menu_id' => 'primary-menu' ) ); ?>
+      </nav>
+
+      <div class="header-buttons">
+        <button class="search-button">
+          <svg width="32" height="32" viewBox="0 0 32 32">
+            <use xlink:href="#search"></use>
+          </svg>
+        </button>
+
+        <ul class="header-midias">
+          <li>
+            <a href="https://instagram.com" target="_blank">
+              <svg width="32" height="32" viewBox="0 0 32 32">
+                <use xlink:href="#instagram"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://facebook.com" target="_blank">
+              <svg width="32" height="32" viewBox="0 0 32 32">
+                <use xlink:href="#facebook"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://youtube.com" target="_blank">
+              <svg width="32" height="32" viewBox="0 0 32 32">
+                <use xlink:href="#youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <button class="menu-hamb" data-menu="button">
+        <span></span>
+      </button>
     </div>
   </header>

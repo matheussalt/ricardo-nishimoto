@@ -11,8 +11,56 @@
 ?>
 
 <footer class="footer">
-  <? // echo do_shortcode(''); ?>
+  <div class="container">
+    <div class="footer-contact">
+      <h2 class="title">Contato</h2>
+
+      <img src="<?=get_template_directory_URI()?>/img/src/logo_branco.png" alt="Ricardo Nishimoto" />
+
+      <ul>
+        <li>
+          <svg width="32" height="32" viewBox="0 0 32 32">
+            <use xlink:href="#tel"></use>
+          </svg>
+
+          <span>33 3333-3333 | 9 9999-9999</span>
+        </li>
+
+        <li>
+          <svg width="32" height="32" viewBox="0 0 32 32">
+            <use xlink:href="#mail"></use>
+          </svg>
+
+          <span>contato@ricardonishimoto.com.br</span>
+        </li>
+
+        <li>
+          <svg width="32" height="32" viewBox="0 0 32 32">
+            <use xlink:href="#pin"></use>
+          </svg>
+
+          <span>Hospitais de atendimento:
+            materdei, life center</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="form">
+      <?php echo do_shortcode('[contact-form-7 id="37" title="Footer Form"]'); ?>
+    </div>
+  </div>
+
+  <div class="rodape">
+    <div class="container">
+      <p>Todos os direitos reservados a Ricardo Nishimoto. Desenvolvido por <a href="https://agenciasalt.com.br"
+          target="_blank">Agência Salt</a>.</p>
+    </div>
+  </div>
 </footer>
+
+<div style="display: none;">
+  <?php include 'svg.php'; ?>
+</div>
 
 <script src="<?=get_template_directory_URI()?>/app/app.js"></script>
 

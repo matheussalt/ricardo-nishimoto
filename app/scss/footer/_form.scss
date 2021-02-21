@@ -1,0 +1,43 @@
+.form {
+  width: 100%;
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    input:not([type='submit']),
+    textarea {
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      padding: 8px;
+      background-color: transparent;
+      border: 1px solid $mediumBlue;
+      color: #fff;
+
+      &::placeholder {
+        color: #ffffffbb;
+        font-size: 12px;
+        font-weight: 300;
+        text-transform: uppercase;
+      }
+    }
+
+    textarea {
+      height: 48px;
+    }
+
+    input[type='submit'] {
+      align-self: flex-start;
+      padding: 8px 32px;
+      background-color: $mediumBlue;
+      border: 1px solid $mediumBlue;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+  }
+}

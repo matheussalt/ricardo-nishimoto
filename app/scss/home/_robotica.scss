@@ -1,0 +1,17 @@
+.home-robotica {
+  width: 100%;
+  padding: 64px 0;
+  background-color: $lightGrey;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
+.home-robotica-img {
+  img {
+    width: 100%;
+  }
+}
