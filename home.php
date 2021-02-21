@@ -180,7 +180,7 @@ get_header(); ?>
     <p>Dr. Ricardo Nishimoto está presente na mídia. Clique e confira as matérias sobre Urologia e Robótica.</p>
 
     <div class="home-imprensa-wrapper">
-      <? query_posts( array( 'post_type' => 'salas-de-imprensa', 'posts_per_page' => '3' ) );  ?>
+      <? query_posts( array( 'post_type' => 'salas-de-imprensa', 'posts_per_page' => '6' ) );  ?>
       <?php if ( have_posts() ) : ?>
       <?php while ( have_posts() ) : the_post(); ?>
 

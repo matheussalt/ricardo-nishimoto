@@ -14,7 +14,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+li {
   color: #686868; }
 
 ul,
@@ -25,10 +26,14 @@ li {
 a {
   text-decoration: none; }
 
-p {
+p,
+li {
   font-size: 1rem;
   line-height: 1.5rem;
   margin: 1rem 0; }
+
+li {
+  margin: 0; }
 
 h3 {
   margin-bottom: 16px;
@@ -122,6 +127,11 @@ h3 {
       width: 16px;
       height: 16px;
       fill: #fff; }
+
+@media screen and (min-width: 768px) {
+  .header {
+    background-position: center center;
+    background-size: cover; } }
 
 .header-menu {
   position: absolute;
@@ -235,6 +245,16 @@ h3 {
     color: #fff;
     font-size: 11px;
     text-transform: uppercase; }
+
+@media screen and (min-width: 768px) {
+  .home-banner .container {
+    justify-content: center; }
+  .home-banner-marcar {
+    padding: 16px 64px; }
+    .home-banner-marcar img {
+      width: 28px; }
+    .home-banner-marcar span {
+      font-size: 14px; } }
 
 .home-robotica {
   width: 100%;
@@ -354,6 +374,11 @@ h3 {
   flex-direction: column;
   gap: 32px; }
 
+@media screen and (min-width: 768px) {
+  .home-blog-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); } }
+
 .home-imprensa {
   width: 100%;
   padding: 64px 0;
@@ -376,6 +401,11 @@ h3 {
   flex-direction: column;
   gap: 32px; }
 
+@media screen and (min-width: 768px) {
+  .home-imprensa-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); } }
+
 .sobre-title {
   padding: 64px 0 0; }
 
@@ -391,6 +421,11 @@ h3 {
 
 .sobre-img img {
   width: 100%; }
+
+@media screen and (min-width: 768px) {
+  .sobre .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
 
 .urorobotica {
   width: 100%;
@@ -480,16 +515,22 @@ h3 {
     font-weight: 300;
     text-transform: uppercase; }
 
+.imprensa-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px; }
+
 .imprensa-cards {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 32px; }
 
-.imprensa-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+@media screen and (min-width: 768px) {
+  .imprensa-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
 
 .imprensa-card {
   position: relative;
@@ -582,6 +623,11 @@ h3 {
   flex-direction: column;
   gap: 32px;
   align-items: center; }
+
+@media screen and (min-width: 768px) {
+  .blog-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); } }
 
 .blog-card {
   display: flex;
@@ -707,6 +753,17 @@ h3 {
       font-size: 12px;
       font-weight: 300;
       text-transform: uppercase; }
+
+@media screen and (min-width: 768px) {
+  .form {
+    margin-bottom: 32px; }
+    .form form {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); }
+      .form form textarea {
+        grid-column: 1 / 3; }
+      .form form input[type='submit'] {
+        justify-self: flex-start; } }
 
 @keyframes reset {
   to {

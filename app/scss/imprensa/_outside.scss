@@ -11,6 +11,13 @@
   }
 }
 
+.imprensa-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
 .imprensa-cards {
   width: 100%;
   display: flex;
@@ -18,8 +25,9 @@
   gap: 32px;
 }
 
-.imprensa-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@media screen and (min-width: 768px) {
+  .imprensa-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

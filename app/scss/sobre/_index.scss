@@ -20,3 +20,10 @@
 .sobre-img img {
   width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+  .sobre .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
