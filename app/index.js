@@ -5,3 +5,4 @@ import modal from './js/modal';
 import './js/modernizr';
 
 menu();
+animacoes();

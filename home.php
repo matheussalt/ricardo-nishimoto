@@ -24,12 +24,12 @@ get_header(); ?>
 
 <section class="home-banner">
   <div class="container">
-    <div class="home-banner-img">
+    <div class="home-banner-img fadeRight" data-anima-tempo>
       <img src="<?=get_template_directory_URI()?>/img/src/home/imagem_banner.jpg"
         alt="Urologia e Alta Tecnologia em favor da saúde" />
     </div>
 
-    <div class="home-banner-txt">
+    <div class="home-banner-txt fadeLeft" data-anima-tempo>
       <h1>UROLOGIA E ALTA TECNOLOGIA EM FAVOR DA SAÚDE</h1>
       <p>A cirurgia robótica possibilita mais precisão, alta definição e operações menos invasivas</p>
 
@@ -46,33 +46,35 @@ get_header(); ?>
 <section class="home-robotica">
   <div class="container">
     <div class="home-robotica-txt">
-      <h2 class="title">cirurgia robótica na urologia</h2>
-      <p>A robótica aplicada na Urologia é um grande avanço médico. Com o uso da tecnologia, é possível realizar
+      <h2 class="title fadeUp" data-animar>cirurgia robótica na urologia</h2>
+      <p class="fadeUp" data-animar>A robótica aplicada na Urologia é um grande avanço médico. Com o uso da tecnologia,
+        é possível realizar
         cirurgia
         de rins, próstata, bexiga e outras áreas de forma minimamente invasiva. É comprovado que a operação se torna
         mais
         segura.</p>
 
-      <p>Hoje, a Medicina conta com máquinas que potencializam cirurgiões. Problemas cardíacos, cerebrais, oncológicos e
+      <p class="fadeUp" data-animar>Hoje, a Medicina conta com máquinas que potencializam cirurgiões. Problemas
+        cardíacos, cerebrais, oncológicos e
         outros são tratados com braços robóticos. Eles levam câmeras e instrumentos para dentro do paciente,
         proporcionando visão 3D.</p>
 
-      <h3>Robótica com foco em Urologia. Principais
+      <h3 class="fadeUp" data-animar>Robótica com foco em Urologia. Principais
         cirurgias realizadas:</h3>
 
-      <ul>
+      <ul class="fadeUp" data-animar>
         <li>Prostatectomia radical no tratamento do câncer da próstata</li>
         <li>Nefrectomia parcial no tratamento do câncer de rim</li>
         <li>Cistectomia radical no tratamento do câncer de bexiga</li>
       </ul>
 
-      <a href="<?=site_url()?>/urorobotica-mg/" class="see-more blue">
+      <a href="<?=site_url()?>/urorobotica-mg/" class="see-more blue fadeUp" data-animar>
         <span>ver mais</span>
         <img src="<?=get_template_directory_URI()?>/img/src/home/arrow.png" />
       </a>
     </div>
 
-    <div class="home-robotica-img">
+    <div class="home-robotica-img fadeUp" data-animar>
       <img src="<?=get_template_directory_URI()?>/img/src/home/cirurgia_na_urologia.jpg" />
     </div>
   </div>
@@ -80,16 +82,16 @@ get_header(); ?>
 
 <section class="home-sobre">
   <div class="container">
-    <h2>sobre o
+    <h2 class="fadeUp" data-animar>sobre o
       doutor
       ricardo
       nishimoto</h2>
 
-    <div class="home-sobre-img">
+    <div class="home-sobre-img fadeUp" data-animar>
       <img src="<?=get_template_directory_URI()?>/img/src/home/ricardo_nishimoto.jpg" alt="Dr. Ricardo Nishimoto" />
     </div>
 
-    <div class="home-sobre-txt">
+    <div class="home-sobre-txt fadeUp" data-animar>
       <h3>ricardo nishimoto</h3>
       <h4>crm 1234-56</h4>
 
@@ -107,7 +109,7 @@ get_header(); ?>
 
 <section class="home-areas">
   <div class="container">
-    <div class="home-areas-txt">
+    <div class="home-areas-txt fadeUp" data-animar>
       <h2 class="title">áreas de atuação</h2>
 
       <div class="home-areas-topicos">
@@ -145,7 +147,7 @@ get_header(); ?>
       </div>
     </div>
 
-    <div class="home-areas-img">
+    <div class="home-areas-img fadeUp" data-animar>
       <img src="<?=get_template_directory_URI()?>/img/src/home/atuacao_1.jpg" class="frente" />
       <img src="<?=get_template_directory_URI()?>/img/src/home/atuacao_2.jpg" class="fundo" />
     </div>

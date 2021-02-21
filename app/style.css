@@ -925,7 +925,7 @@ h3 {
 
 @media screen and (min-width: 1050px) {
   .footer {
-    padding: 30vh 0 0; }
+    padding: 128px 0 0; }
     .footer > .container {
       padding: 0 0 64px;
       display: grid;
@@ -981,6 +981,30 @@ h3 {
 @media screen and (min-width: 1050px) {
   .form {
     margin-bottom: 0; } }
+
+.fadeUp {
+  transform: translate3d(0, 30px, 0);
+  opacity: 0; }
+  .fadeUp.animar {
+    animation: reset 1s ease-out forwards; }
+
+.fadeDown {
+  transform: translate3d(0, -30px, 0);
+  opacity: 0; }
+  .fadeDown.animar {
+    animation: reset 1s ease-out forwards; }
+
+.fadeLeft {
+  transform: translate3d(30px, 0, 0);
+  opacity: 0; }
+  .fadeLeft.animar {
+    animation: reset 1s ease-out forwards; }
+
+.fadeRight {
+  transform: translate3d(-30px, 0, 0);
+  opacity: 0; }
+  .fadeRight.animar {
+    animation: reset 1s ease-out forwards; }
 
 @keyframes reset {
   to {
