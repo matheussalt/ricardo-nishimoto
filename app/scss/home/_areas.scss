@@ -65,3 +65,27 @@
     width: 60%;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .home-areas {
+    padding: 128px 0;
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 64px;
+      align-items: flex-start;
+    }
+  }
+
+  .home-areas-img {
+    .fundo {
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .frente {
+      bottom: -96px;
+    }
+  }
+}

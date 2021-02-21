@@ -29,3 +29,33 @@
 .urorobotica-marque-txt {
   padding: 32px;
 }
+
+@media screen and (min-width: 1050px) {
+  .urorobotica {
+    padding: 128px 0;
+  }
+
+  .urorobotica-wrapper {
+    display: grid;
+    grid-template-columns: 1.25fr 0.75fr;
+    gap: 64px;
+  }
+
+  .urorobotica-marque {
+    padding: 0 0 128px;
+
+    .container {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+    }
+
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .urorobotica-marque-txt {
+    padding: 64px;
+  }
+}

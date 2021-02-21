@@ -4,6 +4,7 @@
 
   .container {
     > p {
+      max-width: 400px;
       font-size: 14px;
       font-weight: 300;
       text-transform: uppercase;
@@ -29,5 +30,19 @@
   .imprensa-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .imprensa {
+    padding: 128px 0;
+  }
+
+  .imprensa-wrapper {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    align-items: flex-start;
+    gap: 64px;
   }
 }

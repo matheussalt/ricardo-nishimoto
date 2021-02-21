@@ -13,6 +13,7 @@
     }
 
     > p {
+      max-width: 440px;
       color: #fff;
       font-size: 14px;
       font-weight: 300;
@@ -36,5 +37,11 @@
   .home-imprensa-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .home-imprensa {
+    padding: 128px 0;
   }
 }

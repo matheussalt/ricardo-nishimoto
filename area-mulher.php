@@ -46,39 +46,41 @@ get_header(); ?>
   </div>
 </section>
 
-<section class="calculos">
+<section class="calculos calculos-mulher">
   <div class="container">
-    <h3>CÁLCULOS URINÁRIOS</h3>
+    <div class="calculos-txt">
+      <h3>CÁLCULOS URINÁRIOS</h3>
 
-    <p>A urolitíase, também conhecida como cálculo urinário ou "pedra nos rins",
-      é uma das patologias mais frequentes do trato urinário. Embora esta
-      entidade seja mais frequente em homens, as mulheres não estão isentas
-      de serem acometidas.</br></br>
-      Os cálculos urinários, chamados popularmente como “pedras no rim”, são
-      o resultado da agregação de cristais de oxalato, cálcio, ácido úrico e
-      outras substâncias. As causas estão relacionadas com a raça, sexo,
-      idade, condições climáticas e ocupação profissional, sendo que as mais
-      importantes são a herança genética, os aspectos nutricionais e
-      metabólicos.</br></br>
-      Os sintomas são inespecíficos, sendo os mais comuns dor
-      lombar/abdominal, hematúria (“sangue na urina”), sensação de
-      esvaziamento incompleto da bexiga e aumento da frequência urinária. A
-      dor lombar, conhecida como cólica nefrética, é proveniente da obstrução
-      ocasionada durante a migração do cálculo renal através da estrutura que
-      conduz a urina do rim até a bexiga, chamada ureter.
-      O tratamento cirúrgico dos cálculos urinários depende do seu tamanho,
-      localização e do grau de dureza.</br></br>
-      As principais técnicas cirúrgicas utilizadas são as endoscópicas, que
-      também são consideradas técnicas minimamente invasivas.</br>
-      Diferentemente das técnicas laparoscópicas, incluindo a cirurgia robótica,
-      o acesso é feito pelos orifícios naturais ou percutâneo (pequeno orifício
-      através da pele). São utilizados endoscópios especiais (semi rígidos ou
-      flexíveis) acoplados a microcâmeras, que permitem acessar os cálculos
-      pela uretra ou diretamente no rim por uma punção lombar no acesso
-      percutâneo. Da mesma forma que as técnicas laparoscópicas, as técnicas
-      endoscópicas permitem diminuir a morbidade das técnicas convencionais,
-      proporcionando ao paciente um retorno mais precoce às suas atividades.
-    </p>
+      <p>A urolitíase, também conhecida como cálculo urinário ou "pedra nos rins",
+        é uma das patologias mais frequentes do trato urinário. Embora esta
+        entidade seja mais frequente em homens, as mulheres não estão isentas
+        de serem acometidas.</br></br>
+        Os cálculos urinários, chamados popularmente como “pedras no rim”, são
+        o resultado da agregação de cristais de oxalato, cálcio, ácido úrico e
+        outras substâncias. As causas estão relacionadas com a raça, sexo,
+        idade, condições climáticas e ocupação profissional, sendo que as mais
+        importantes são a herança genética, os aspectos nutricionais e
+        metabólicos.</br></br>
+        Os sintomas são inespecíficos, sendo os mais comuns dor
+        lombar/abdominal, hematúria (“sangue na urina”), sensação de
+        esvaziamento incompleto da bexiga e aumento da frequência urinária. A
+        dor lombar, conhecida como cólica nefrética, é proveniente da obstrução
+        ocasionada durante a migração do cálculo renal através da estrutura que
+        conduz a urina do rim até a bexiga, chamada ureter.
+        O tratamento cirúrgico dos cálculos urinários depende do seu tamanho,
+        localização e do grau de dureza.</br></br>
+        As principais técnicas cirúrgicas utilizadas são as endoscópicas, que
+        também são consideradas técnicas minimamente invasivas.</br>
+        Diferentemente das técnicas laparoscópicas, incluindo a cirurgia robótica,
+        o acesso é feito pelos orifícios naturais ou percutâneo (pequeno orifício
+        através da pele). São utilizados endoscópios especiais (semi rígidos ou
+        flexíveis) acoplados a microcâmeras, que permitem acessar os cálculos
+        pela uretra ou diretamente no rim por uma punção lombar no acesso
+        percutâneo. Da mesma forma que as técnicas laparoscópicas, as técnicas
+        endoscópicas permitem diminuir a morbidade das técnicas convencionais,
+        proporcionando ao paciente um retorno mais precoce às suas atividades.
+      </p>
+    </div>
   </div>
 </section>
 

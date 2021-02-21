@@ -27,3 +27,17 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media screen and (min-width: 1050px) {
+  .sobre-title {
+    padding: 128px 0 0;
+  }
+
+  .sobre {
+    padding: 128px 0;
+
+    .container {
+      gap: 64px;
+    }
+  }
+}

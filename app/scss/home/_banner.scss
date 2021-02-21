@@ -50,6 +50,11 @@
     color: #fff;
     font-size: 14px;
     text-transform: uppercase;
+
+    &:hover {
+      background-color: #fff;
+      color: $black;
+    }
   }
 }
 
@@ -61,6 +66,10 @@
   display: flex;
   align-items: center;
   background-color: $lightBlue;
+
+  &:hover {
+    background-color: $blue;
+  }
 
   img {
     width: 22px;
@@ -90,6 +99,28 @@
 
     span {
       font-size: 14px;
+    }
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .home-banner {
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      flex-direction: row;
+      align-items: center;
+      gap: 64px;
+    }
+  }
+
+  .home-banner-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    h1 {
+      font-size: 38px;
     }
   }
 }

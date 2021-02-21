@@ -13,6 +13,20 @@
 @media screen and (min-width: 768px) {
   .blog-cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .blog {
+    padding: 128px 0;
+  }
+
+  .blog-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 64px;
+    align-items: flex-start;
   }
 }

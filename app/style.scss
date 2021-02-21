@@ -119,6 +119,17 @@ h3 {
   }
 }
 
+@media screen and (min-width: 1050px) {
+  h3 {
+    font-size: 24px;
+  }
+
+  .title {
+    padding: 16px 32px 16px 0;
+    margin-bottom: 64px;
+  }
+}
+
 @import './scss/header/header';
 @import './scss/home';
 @import './scss/sobre';

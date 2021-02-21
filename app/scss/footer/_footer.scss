@@ -64,4 +64,18 @@
   }
 }
 
+@media screen and (min-width: 1050px) {
+  .footer {
+    padding: 30vh 0 0;
+
+    > .container {
+      padding: 0 0 64px;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      align-items: flex-end;
+      gap: 96px;
+    }
+  }
+}
+
 @import './form';

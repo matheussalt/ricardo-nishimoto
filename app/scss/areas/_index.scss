@@ -43,3 +43,34 @@
 .incontinencia {
   padding: 64px 0;
 }
+
+@media screen and (min-width: 1050px) {
+  .area-homem {
+    padding: 128px 0;
+  }
+
+  .area-homem-wrapper {
+    img {
+      height: 320px;
+    }
+  }
+
+  .calculos {
+    padding: 128px 0;
+
+    .container {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      align-items: center;
+      gap: 64px;
+    }
+
+    &.calculos-mulher .container {
+      display: block;
+    }
+  }
+
+  .incontinencia {
+    padding: 128px 0;
+  }
+}
