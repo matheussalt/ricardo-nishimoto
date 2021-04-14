@@ -73,15 +73,15 @@
       </nav>
 
       <div class="header-buttons">
-        <button class="search-button">
+        <!-- <button class="search-button">
           <svg width="32" height="32" viewBox="0 0 32 32">
             <use xlink:href="#search"></use>
           </svg>
-        </button>
+        </button> -->
 
         <ul class="header-midias">
           <li>
-            <a href="https://instagram.com" target="_blank">
+            <a href="https://www.instagram.com/dr.ricardonishimoto/" target="_blank">
               <svg width="32" height="32" viewBox="0 0 32 32">
                 <use xlink:href="#instagram"></use>
               </svg>
@@ -89,7 +89,7 @@
           </li>
 
           <li>
-            <a href="https://facebook.com" target="_blank">
+            <a href="https://www.facebook.com/Dr-Ricardo-Nishimoto-103064235213291" target="_blank">
               <svg width="32" height="32" viewBox="0 0 32 32">
                 <use xlink:href="#facebook"></use>
               </svg>
@@ -97,9 +97,17 @@
           </li>
 
           <li>
-            <a href="https://youtube.com" target="_blank">
+            <a href="https://www.linkedin.com/in/ricardo-nishimoto-9b924720a/" target="_blank">
               <svg width="32" height="32" viewBox="0 0 32 32">
-                <use xlink:href="#youtube"></use>
+                <use xlink:href="#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/UroNishimoto" target="_blank">
+              <svg width="32" height="32" viewBox="0 0 32 32">
+                <use xlink:href="#twitter"></use>
               </svg>
             </a>
           </li>

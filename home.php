@@ -33,11 +33,11 @@ get_header(); ?>
       <h1>UROLOGIA E ALTA TECNOLOGIA EM FAVOR DA SAÚDE</h1>
       <p>A cirurgia robótica possibilita mais precisão, alta definição e operações menos invasivas</p>
 
-      <a href="<?=site_url()?>/contato">marque sua consulta</a>
+      <a href="http://wa.me/+5531988377530" target="_blank">marque sua consulta</a>
     </div>
   </div>
 
-  <a href="<?=site_url()?>/contato" class="home-banner-marcar">
+  <a href="http://wa.me/+5531988377530" target="_blank" class="home-banner-marcar">
     <img src="<?=get_template_directory_URI()?>/img/src/home/calendario.png" alt="Marque sua consulta" />
     <span>marque sua consulta</span>
   </a>
@@ -93,7 +93,7 @@ get_header(); ?>
 
     <div class="home-sobre-txt fadeUp" data-animar>
       <h3>ricardo nishimoto</h3>
-      <h4>crm 1234-56</h4>
+      <h4>crm 33715</h4>
 
       <p>Cirurgião com expertise em Urorobótica. Um dos poucos cirurgiões urologistas de Belo Horizonte/MG capacitado
         para operar com tecnologia robótica. Profissional que se preocupa com o bem-estar do paciente acima de tudo. Por
@@ -176,7 +176,7 @@ get_header(); ?>
   </div>
 </section>
 
-<section class="home-imprensa">
+<!-- <section class="home-imprensa">
   <div class="container">
     <h2 class="title">sala de imprensa</h2>
     <p>Dr. Ricardo Nishimoto está presente na mídia. Clique e confira as matérias sobre Urologia e Robótica.</p>
@@ -200,6 +200,6 @@ get_header(); ?>
       <img src="<?=get_template_directory_URI()?>/img/src/home/arrow.png" />
     </a>
   </div>
-</section>
+</section> -->
 
 <?php get_footer();

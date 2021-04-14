@@ -23,7 +23,7 @@
             <use xlink:href="#tel"></use>
           </svg>
 
-          <span>33 3333-3333 | 9 9999-9999</span>
+          <span>+55 31 3643-7530 | +55 31 9 8837-7530</span>
         </li>
 
         <li>
@@ -39,8 +39,9 @@
             <use xlink:href="#pin"></use>
           </svg>
 
-          <span>Hospitais de atendimento:
-            materdei, life center</span>
+          <span>Rua Araguari 1156, Sala 2004</br>
+            Santo Agostinho</br>Belo Horizonte/MG</br>
+            Cep: 30190-111</span>
         </li>
       </ul>
     </div>

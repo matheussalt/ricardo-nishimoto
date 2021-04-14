@@ -31,7 +31,7 @@
         <div class="perfil">
           <img src="<?=get_template_directory_URI()?>/img/src/ricardo_perfil.png" />
           <h4>ricardo nishimoto</h4>
-          <h5>crm - 12345</h5>
+          <h5>crm - 33715</h5>
 
           <p>Cirurgião com expertise em Urorobótica. Um dos poucos cirurgiões urologistas de Belo Horizonte/MG
             capacitado para operar com tecnologia robótica. </p>
