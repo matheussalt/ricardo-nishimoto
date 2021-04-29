@@ -955,6 +955,17 @@ h3 {
         font-size: 12px;
         font-weight: 300;
         text-transform: uppercase; }
+    .form form .wpcf7-checkbox label {
+      display: flex;
+      align-items: center; }
+      .form form .wpcf7-checkbox label input {
+        width: auto;
+        max-width: unset;
+        min-width: unset;
+        margin-right: 12px; }
+      .form form .wpcf7-checkbox label span {
+        color: #fff;
+        font-size: 12px; }
     .form form textarea {
       height: 48px; }
     .form form input[type='submit'] {

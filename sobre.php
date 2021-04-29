@@ -22,6 +22,7 @@ get_header(); ?>
 
     <div class="sobre-txt">
       <h3>Dr. Ricardo Nishimoto</h3>
+      <h4>CRM 33715</h4>
 
       <p>Dr. Ricardo Nishimoto é médico urologista formado pela Universidade
         Federal de Minas Gerais (UFMG), com especialização em Cirurgia

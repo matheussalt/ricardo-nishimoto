@@ -169,7 +169,7 @@ get_header(); ?>
       <?php endif; ?>
     </div>
 
-    <a href="<?=site_url()?>/sobre/" class="see-more blue">
+    <a href="<?=site_url()?>/blog/" class="see-more blue">
       <span>ver mais</span>
       <img src="<?=get_template_directory_URI()?>/img/src/home/arrow.png" />
     </a>

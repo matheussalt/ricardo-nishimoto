@@ -65,7 +65,7 @@
   <header class="header">
     <div class="container">
       <a href="<?=site_url()?>" class="header-logo">
-        <img src="<?=get_template_directory_URI()?>/img/src/logo_branco.png" alt="Logotipo Ricardo Nishimoto" />
+        <img src="<?=get_template_directory_URI()?>/img/src/logo-white.svg" alt="Logotipo Ricardo Nishimoto" />
       </a>
 
       <nav class="header-menu" data-menu="menu">

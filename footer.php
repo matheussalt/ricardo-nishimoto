@@ -31,7 +31,7 @@
             <use xlink:href="#mail"></use>
           </svg>
 
-          <span>contato@ricardonishimoto.com.br</span>
+          <span>atedimento@videourologia.com.br</span>
         </li>
 
         <li>
