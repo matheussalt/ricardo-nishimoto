@@ -72,7 +72,7 @@ get_header(); ?>
         As principais técnicas cirúrgicas utilizadas são as endoscópicas, que
         também são consideradas técnicas minimamente invasivas.</br>
         Diferentemente das técnicas laparoscópicas, incluindo a cirurgia robótica,
-        o acesso é feito pelos orifícios naturais ou percutâneo (pequeno orifício
+        o acesso endoscópico é feito pelos orifícios naturais ou percutâneo (pequeno orifício
         através da pele). São utilizados endoscópios especiais (semi rígidos ou
         flexíveis) acoplados a microcâmeras, que permitem acessar os cálculos
         pela uretra ou diretamente no rim por uma punção lombar no acesso
@@ -98,14 +98,14 @@ get_header(); ?>
       está associada a situações de aumento da pressão intra abdominal como
       atividade física, tosse e espirro; b) de urgência, que está relacionada a um
       forte desejo de urinar; c) misto, que é a associação das duas primeiras
-      modalidades de incontinência.</br>
+      modalidades de incontinência.</br></br>
       O prolapso genital ou distopia genital consiste no “desarranjo” anatômico
       dos órgãos pélvicos causado pela perda de sua sustentação muscular
       e/ou ligamentar, resultando na protusão dos mesmos para o canal vaginal
       ou mesmo para o exterior da vagina dependendo da sua graduação.</br></br>
       Os fatores de risco mais importantes para o prolapso genital são a idade,
       gravidez, deficiência hormonal (hipoestrogenismo), cirurgia pélvica prévia,
-      história familiar e deficiência de colágeno/elastina.</br>
+      história familiar e deficiência de colágeno/elastina.</br></br>
       Os sintomas podem ser isolados ou associados dependendo do(s)
       órgão(s) prolapsado e do grau do prolapso. Dor perineal ou pélvica,
       sensação de “peso” ou “bola vaginal", sintomas urinários irritativos e/ou

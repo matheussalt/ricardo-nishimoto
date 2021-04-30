@@ -120,7 +120,7 @@ get_header(); ?>
         em procedimentos minimamente invasivos. Entre em contato e agende
         sua consulta:</p>
 
-      <p>+55 31 3643-7530 | atedimento@videourologia.com.br</p>
+      <p>+55 31 3643-7530 | +55 31 98837-7530 | atedimento@videourologia.com.br</p>
     </div>
 
     <img src="<?=get_template_directory_uri()?>/img/src/urorobotica/urorobotica2.jpg" alt="Urorobótica" />

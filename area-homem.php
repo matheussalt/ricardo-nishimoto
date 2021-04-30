@@ -74,7 +74,7 @@ get_header(); ?>
         As principais técnicas cirúrgicas utilizadas são as endoscópicas, que
         também são consideradas técnicas minimamente invasivas.</br></br>
         Diferentemente das técnicas laparoscópicas, incluindo a cirurgia robótica,
-        o acesso é feito pelos orifícios naturais ou percutâneo (pequeno orifício
+        o acesso endoscópico é feito pelos orifícios naturais ou percutâneo (pequeno orifício
         através da pele). São utilizados endoscópios especiais (semi-rígidos ou
         flexíveis) acoplados a microcâmeras, que permitem acessar os cálculos
         pela uretra ou diretamente no rim por uma punção lombar no acesso
@@ -87,7 +87,7 @@ get_header(); ?>
 
     <div class="calculos-img">
       <img src="<?=get_template_directory_uri()?>/img/src/areas/calculo1.jpg" alt="Cálculos urinários" />
-      <img src="<?=get_template_directory_uri()?>/img/src/areas/calculo2.jpg" alt="Cálculos urinários" />
+      <!-- <img src="<?=get_template_directory_uri()?>/img/src/areas/calculo2.jpg" alt="Cálculos urinários" /> -->
     </div>
   </div>
 </section>
