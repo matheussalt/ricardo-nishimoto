@@ -33,8 +33,7 @@
           <h4>ricardo nishimoto</h4>
           <h5>crm - 33715</h5>
 
-          <p>Cirurgião com expertise em Urorobótica. Um dos poucos cirurgiões urologistas de Belo Horizonte/MG
-            capacitado para operar com tecnologia robótica. </p>
+          <p>Médico urologista com expertise no acesso cirúrgico minimamente invasivo e robótico.</p>
         </div>
 
         <div class="categories">

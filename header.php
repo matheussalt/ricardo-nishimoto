@@ -119,3 +119,15 @@
       </button>
     </div>
   </header>
+
+  <script>
+  var whatsappNum = "5531988377530";
+  var textStd = "Olá Ricardo.";
+  var keyZap = "e13af474611488cb1d9e60174fd3b805";
+  var topTxt = "";
+  var placeTxt = "";
+  var colorZap = "";
+  var butSend = "";
+  </script>
+  <script language='JavaScript' type='text/javascript' src="http://ricardonishimoto.com/whats/js/sendZap.js">
+  </script>
