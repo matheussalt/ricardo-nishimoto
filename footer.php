@@ -31,7 +31,7 @@
             <use xlink:href="#mail"></use>
           </svg>
 
-          <span>atedimento@videourologia.com.br</span>
+          <span>atendimento@videourologia.com.br</span>
         </li>
 
         <li>
